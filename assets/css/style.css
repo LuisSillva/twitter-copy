@@ -1,0 +1,139 @@
+body {
+    background-color: #000;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px 10px 0 235px;
+}
+
+
+/* CABEÇALHO */
+.cabecalho {
+    flex-basis: 20%;
+}
+
+.cabecalho__logo {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: -10px;
+}
+
+.cabecalho__logo img {
+
+
+}
+
+.cabecalho__logo figcaption {
+    display: none;
+}
+
+.cabecalho__menuNavbar {
+
+}
+
+.cabecalho__menuLista {
+
+}
+
+.cabecalho__menuItem {
+    margin-bottom: 30px;
+
+}
+
+.cabecalho__menuItem img {
+    max-width: 29px;
+    width: 30px;
+    margin-right: 15px
+}
+
+.cabecalho__menuItem a {
+    color: ghostwhite;
+    text-decoration: none;
+    font-size: 22px;
+    vertical-align: top;
+}
+
+/* CONTEÚDO PRINCIPAL */
+
+.conteudoPrincipal {
+    flex-basis: 60%;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.conteudoPrincipal__Titulo {
+    padding: 10px 30px;
+
+}
+
+.conteudoPrincipal__Formulario{
+    padding: 10px 30px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    text-align: right;
+    display:flex;
+}
+
+.conteudoPrincipal__Formulario img {
+    border-radius: 50px;
+}
+
+.conteudoPrincipal__Formulario textarea {
+    width: 100%;
+    height: 60px;
+    border: none;
+    outline: none;
+    resize: none;
+    background-color: #000;
+    padding: 10px 10px;
+    font-size: 18px;
+}
+
+
+.conteudoPrincipal__Formulario button {
+    background-color: #1da1f2;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+
+.conteudoPrincipal__Feed {
+    
+}
+
+.conteudoPrincipal__listaTweets {
+    
+}
+
+.conteudoPrincipal__tweet {
+    padding: 20px 32px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.tweet_avatar {
+    border-radius: 50px;
+}
+
+.tweet__conteudo {
+    margin-left: 15px;
+}
+
+.tweet__conteudo h2 {
+    display: inline-block;
+    color: ghostwhite;
+    font-size: 18px;
+}
+
+.tweet__conteudo span {
+    display: inline-block;
+    color: #828282;
+} 
+
+.tweet__conteudo p {
+    margin-top: 15px;
+}
