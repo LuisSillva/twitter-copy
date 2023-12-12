@@ -5,16 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
     <title>Litwitter</title>
 </head>
 <body>
-
     <div class="container">
 
         <!-- cabeçalho -->
         <header class="cabecalho">
             <figure class="cabecalho__logo">
-                <img src="assets/img/X.png" alt="">
+                <img src="assets/img/logo-white-x (1).png" alt="">
                 <figcaption hidden>Logo</figcaption>
             </figure>
 
@@ -70,19 +72,19 @@
         <!-- conteúdo principal-->
         <main class="conteudoPrincipal">
             
-            <h3 class="conteudoPrincipal__Titulo">Home</h3>
+            <h3 class="conteudoPrincipal__Titulo">Para você</h3>
             <form action="#" class="conteudoPrincipal__Formulario">
-                <img src="assets/img/avatar.jpg" alt="">
+                <img src="assets/img/avatar.png" alt="">
                 <textarea name="textoTweet" placeholder="O que está acontecendo?"></textarea>
 
-                <button type="submit">Postar</button>
+                <button type="submit" id="postar">Postar</button>
             </form>
 
             <section class="conteudoPrincipal__Feed">
                 <ul class="conteudoPrincipal__listaTweets">
                     <li class="conteudoPrincipal__tweet">
                         <!-- avatar / tweet -->
-                        <img class="tweet_avatar" src="assets/img/avatar.jpg" alt="">
+                        <img class="tweet_avatar" src="assets/img/avatar.png" alt="">
                         <div class="tweet__conteudo">
                             <h2>Mave</h2>
                             <span>@justmavenn</span>
@@ -91,7 +93,7 @@
                     </li>
                     <li class="conteudoPrincipal__tweet">
                         <!-- avatar / tweet -->
-                        <img class="tweet_avatar" src="assets/img/avatar.jpg" alt="">
+                        <img class="tweet_avatar" src="assets/img/avatar.png" alt="">
                         <div class="tweet__conteudo">
                             <h2>Mave</h2>
                             <span>@justmavenn</span>
@@ -100,7 +102,7 @@
                     </li>
                     <li class="conteudoPrincipal__tweet">
                         <!-- avatar / tweet -->
-                        <img class="tweet_avatar" src="assets/img/avatar.jpg" alt="">
+                        <img class="tweet_avatar" src="assets/img/avatar.png" alt="">
                         <div class="tweet__conteudo">
                             <h2>Mave</h2>
                             <span>@justmavenn</span>
@@ -109,7 +111,7 @@
                     </li>
                     <li class="conteudoPrincipal__tweet">
                         <!-- avatar / tweet -->
-                        <img class="tweet_avatar" src="assets/img/avatar.jpg" alt="">
+                        <img class="tweet_avatar" src="assets/img/avatar.png" alt="">
                         <div class="tweet__conteudo">
                             <h2>Mave</h2>
                             <span>@justmavenn</span>
@@ -118,11 +120,9 @@
                     </li>
                 </ul>
             </section>
-
         </main>
-
     </div>
-
+    <script type="text/javascript" src="./assets/js/script.js"></script>
 </body>
 </html>
 

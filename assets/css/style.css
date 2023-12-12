@@ -1,5 +1,6 @@
 body {
     background-color: #000;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -18,11 +19,10 @@ body {
 .cabecalho__logo {
     margin-top: 10px;
     margin-bottom: 20px;
-    margin-left: -10px;
 }
 
 .cabecalho__logo img {
-
+    max-height: 30px;
 
 }
 
@@ -30,13 +30,13 @@ body {
     display: none;
 }
 
-.cabecalho__menuNavbar {
+/* .cabecalho__menuNavbar {
 
 }
 
 .cabecalho__menuLista {
 
-}
+} */
 
 .cabecalho__menuItem {
     margin-bottom: 30px;
@@ -66,20 +66,41 @@ body {
 
 .conteudoPrincipal__Titulo {
     padding: 10px 30px;
+    color: ghostwhite;
+    height: 30px;
+    margin-left: 38%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    position: relative;
+}
 
+.conteudoPrincipal__Titulo::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 143px;
+    height: 5px; 
+    background-color: white; 
+    border-radius: 5px; 
 }
 
 .conteudoPrincipal__Formulario{
     padding: 10px 30px;
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
+    border-top: 1px solid rgb(92, 92, 92);
+    border-bottom: 1px solid rgb(92, 92, 92);
     text-align: right;
     display:flex;
 }
 
 .conteudoPrincipal__Formulario img {
     border-radius: 50px;
+    width: 50px; 
+    height: 50px;
 }
+
 
 .conteudoPrincipal__Formulario textarea {
     width: 100%;
@@ -90,6 +111,7 @@ body {
     background-color: #000;
     padding: 10px 10px;
     font-size: 18px;
+    color: ghostwhite;
 }
 
 
@@ -99,20 +121,24 @@ body {
     border: none;
     border-radius: 15px;
     color: white;
+    height: fit-content;
+    font-weight: bold;
+    margin-top: 40px;
 }
 
-.conteudoPrincipal__Feed {
+/* .conteudoPrincipal__Feed {
     
 }
 
 .conteudoPrincipal__listaTweets {
     
-}
+} */
 
 .conteudoPrincipal__tweet {
     padding: 20px 32px;
     display: flex;
     align-items: flex-start;
+    border-bottom: 1px solid rgb(92, 92, 92);
 }
 
 .tweet_avatar {
@@ -123,10 +149,12 @@ body {
     margin-left: 15px;
 }
 
+
 .tweet__conteudo h2 {
     display: inline-block;
     color: ghostwhite;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .tweet__conteudo span {
@@ -136,4 +164,6 @@ body {
 
 .tweet__conteudo p {
     margin-top: 15px;
+    color: whitesmoke;
+    
 }
