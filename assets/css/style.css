@@ -128,33 +128,46 @@ body {
 
 /* .conteudoPrincipal__Feed {
     
-}
+}  */
 
 .conteudoPrincipal__listaTweets {
-    
-} */
+    border-bottom: 1px solid rgb(92, 92, 92);
+}
 
 .conteudoPrincipal__tweet {
     padding: 20px 32px;
     display: flex;
     align-items: flex-start;
-    border-bottom: 1px solid rgb(92, 92, 92);
+
 }
 
-.tweet_avatar {
+
+.tweet__avatar {
     border-radius: 50px;
+    margin-left: 15px;
+    margin-top: 15px;
 }
 
 .tweet__conteudo {
     margin-left: 15px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
+/* .tweet__conteudo::after {
+    margin-top: 10px;
+    content: '';
+    display: block;
+    border-bottom: 1px solid rgb(92, 92, 92);
+    margin-left: -15px;
+} */
 
 .tweet__conteudo h2 {
     display: inline-block;
     color: ghostwhite;
     font-size: 18px;
     font-weight: bold;
+
 }
 
 .tweet__conteudo span {
@@ -164,6 +177,6 @@ body {
 
 .tweet__conteudo p {
     margin-top: 15px;
+    margin-bottom: 10px;
     color: whitesmoke;
-    
 }
